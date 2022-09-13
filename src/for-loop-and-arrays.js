@@ -10,9 +10,8 @@ let word = ''
 // 1. Use a for loop to set the sum variable to the sum of all the values in nums
 sum = 0
 
-for (let j = 0; j<nums.length; j++){
-  sum+=nums[j]
-
+for (let j = 0; j < nums.length; j++) {
+  sum += nums[j]
 }
 console.log(sum)
 
