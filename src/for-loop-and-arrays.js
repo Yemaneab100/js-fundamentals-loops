@@ -10,6 +10,12 @@ let word = ''
 // 1. Use a for loop to set the sum variable to the sum of all the values in nums
 sum = 0
 
+for (let j = 0; j<nums.length; j++){
+  sum+=nums[j]
+
+}
+console.log(sum)
+
 // 2. Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 const doubledNums = []
 
